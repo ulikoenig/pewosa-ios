@@ -52,6 +52,8 @@ class ViewController: UIViewController {
         webView?.load(requestObj);
     }
     
+    @IBAction func storeSettings(_ sender: UIButton) {
+    }
 
     
 }
