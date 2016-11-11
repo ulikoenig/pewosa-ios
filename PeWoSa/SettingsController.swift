@@ -14,12 +14,12 @@ class SettingsController: UIViewController {
     @IBOutlet var passwordF: UITextField!
     
     @IBAction func onUsernameEdited(_ sender: UITextField) {
-        print("Benutzername geändert: "+usernameF.text!)
+        //print("Benutzername geändert: "+usernameF.text!)
         UserDefaults.standard.set(usernameF.text,forKey: "username")
     }
     
     @IBAction func onPasswordEdited(_ sender: UITextField) {
-        print("Passwort geändert: "+passwordF.text!)
+        //print("Passwort geändert: "+passwordF.text!)
         UserDefaults.standard.set(passwordF.text,forKey: "password")
     }
     

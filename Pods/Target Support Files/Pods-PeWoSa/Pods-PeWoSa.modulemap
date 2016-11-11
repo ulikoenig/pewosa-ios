@@ -1,0 +1,6 @@
+framework module Pods_PeWoSa {
+  umbrella header "Pods-PeWoSa-umbrella.h"
+
+  export *
+  module * { export * }
+}
