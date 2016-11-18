@@ -8,10 +8,6 @@
 
 import UIKit
 import WebKit
-import UserNotifications
-import Firebase
-import FirebaseInstanceID
-import FirebaseMessaging
 
 class ViewController: UIViewController {
 
@@ -66,6 +62,5 @@ class ViewController: UIViewController {
     @IBAction func homeBtnClicked(_ sender: UIBarButtonItem) {
         loadStartPage()
     }
-    
 }
 

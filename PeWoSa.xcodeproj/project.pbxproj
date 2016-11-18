@@ -12,9 +12,7 @@
 		2E097D581DD647700050E671 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E097D561DD647700050E671 /* Main.storyboard */; };
 		2E097D5A1DD647700050E671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E097D591DD647700050E671 /* Assets.xcassets */; };
 		2E097D5D1DD647700050E671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E097D5B1DD647700050E671 /* LaunchScreen.storyboard */; };
-		2E1841221DD674FE0053DEF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E1841211DD674FE0053DEF7 /* GoogleService-Info.plist */; };
 		2E39ABA41DD64CA7003C79A1 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E39ABA31DD64CA7003C79A1 /* SettingsController.swift */; };
-		4F35403380363D4C390A64E1 /* Pods_PeWoSa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10C81C8BE8FF48DB75355C8 /* Pods_PeWoSa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +23,7 @@
 		2E097D591DD647700050E671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E097D5C1DD647700050E671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E097D5E1DD647700050E671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E1841211DD674FE0053DEF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2E39ABA31DD64CA7003C79A1 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
-		3ACAA0035B78A7BE38630995 /* Pods-PeWoSa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeWoSa.release.xcconfig"; path = "Pods/Target Support Files/Pods-PeWoSa/Pods-PeWoSa.release.xcconfig"; sourceTree = "<group>"; };
-		80D0FC447E2588E5F29C6630 /* Pods-PeWoSa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeWoSa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PeWoSa/Pods-PeWoSa.debug.xcconfig"; sourceTree = "<group>"; };
-		C10C81C8BE8FF48DB75355C8 /* Pods_PeWoSa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeWoSa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,29 +31,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F35403380363D4C390A64E1 /* Pods_PeWoSa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25F410951D8E1C99753614B6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				80D0FC447E2588E5F29C6630 /* Pods-PeWoSa.debug.xcconfig */,
-				3ACAA0035B78A7BE38630995 /* Pods-PeWoSa.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		2E097D461DD647700050E671 = {
 			isa = PBXGroup;
 			children = (
 				2E097D511DD647700050E671 /* PeWoSa */,
 				2E097D501DD647700050E671 /* Products */,
-				25F410951D8E1C99753614B6 /* Pods */,
-				7570B52674D661BA6123D04D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,17 +63,8 @@
 				2E097D591DD647700050E671 /* Assets.xcassets */,
 				2E097D5B1DD647700050E671 /* LaunchScreen.storyboard */,
 				2E097D5E1DD647700050E671 /* Info.plist */,
-				2E1841211DD674FE0053DEF7 /* GoogleService-Info.plist */,
 			);
 			path = PeWoSa;
-			sourceTree = "<group>";
-		};
-		7570B52674D661BA6123D04D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C10C81C8BE8FF48DB75355C8 /* Pods_PeWoSa.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,12 +74,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E097D611DD647700050E671 /* Build configuration list for PBXNativeTarget "PeWoSa" */;
 			buildPhases = (
-				D1D76355DEF7FA74903C561C /* [CP] Check Pods Manifest.lock */,
 				2E097D4B1DD647700050E671 /* Sources */,
 				2E097D4C1DD647700050E671 /* Frameworks */,
 				2E097D4D1DD647700050E671 /* Resources */,
-				D11CA1CB24E924CD5070D8F3 /* [CP] Embed Pods Frameworks */,
-				155E6A490F14B738457276C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,61 +128,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E097D5D1DD647700050E671 /* LaunchScreen.storyboard in Resources */,
-				2E1841221DD674FE0053DEF7 /* GoogleService-Info.plist in Resources */,
 				2E097D5A1DD647700050E671 /* Assets.xcassets in Resources */,
 				2E097D581DD647700050E671 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		155E6A490F14B738457276C4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeWoSa/Pods-PeWoSa-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D11CA1CB24E924CD5070D8F3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PeWoSa/Pods-PeWoSa-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1D76355DEF7FA74903C561C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E097D4B1DD647700050E671 /* Sources */ = {
@@ -342,7 +263,6 @@
 		};
 		2E097D621DD647700050E671 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80D0FC447E2588E5F29C6630 /* Pods-PeWoSa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -357,7 +277,6 @@
 		};
 		2E097D631DD647700050E671 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ACAA0035B78A7BE38630995 /* Pods-PeWoSa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
