@@ -13,6 +13,9 @@ class ViewController: UIViewController {
 
     @IBOutlet var webViewObj: UIWebView!
     private var webView: WKWebView?
+    private var username:String!
+    private var password:String!
+
     
     @IBAction func exitButton(_ sender: UIBarButtonItem) {
         exit(0)
@@ -24,10 +27,23 @@ class ViewController: UIViewController {
         view = webView
     }
     
+    
+    func restoreUserSettings() {
+        username = ""
+        password = ""
+        if (UserDefaults.standard.object(forKey: "username")  != nil){
+            username = UserDefaults.standard.string(forKey: "username")!
+        }
+        if (UserDefaults.standard.object(forKey: "password")  != nil){
+            password = UserDefaults.standard.string(forKey: "password")!
+        }
+    }
+    
+    
+    
     func loadStartPage(){
-        let username = UserDefaults.standard.string(forKey: "username")! as? String
-        let password =  UserDefaults.standard.string(forKey: "password")! as? String
-        let url = URL(string: "https://ulikoenig.de/pewosa/login.php?login=1&username="+username!+"&password="+password!)
+        restoreUserSettings()
+        let url = URL(string: "https://ulikoenig.de/pewosa/login.php?login=1&username="+username+"&password="+password)
         var requestObj = URLRequest(url: url!);
         let userAgent = "de.ulikoenig.pewosa/android";
         requestObj.setValue(userAgent, forHTTPHeaderField: "User-Agent")

@@ -99,7 +99,7 @@
 				TargetAttributes = {
 					2E097D4E1DD647700050E671 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 38YU23X62B;
+						DevelopmentTeam = 4AG69B3BN4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -266,7 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 38YU23X62B;
+				DEVELOPMENT_TEAM = 4AG69B3BN4;
 				INFOPLIST_FILE = PeWoSa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ulikoenig.PeWoSa;
@@ -280,7 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 38YU23X62B;
+				DEVELOPMENT_TEAM = 4AG69B3BN4;
 				INFOPLIST_FILE = PeWoSa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.ulikoenig.PeWoSa;
